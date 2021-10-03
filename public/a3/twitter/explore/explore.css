@@ -1,0 +1,96 @@
+.wd-bg-color-black { background-color: black; }
+.wd-bg-color-gary { background-color: darkgray; }
+.wd-fg-color-white { color: white; }
+.wd-highlighted-link-color {color: rgb(29,161,242); }
+.wd-other-link-color {color: rgb(110, 118, 125); }
+
+.wd-border {
+    border-color:  rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+}
+.wd-bottom-border {
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+.wd-input {
+    outline: none;
+    border: none;
+    width: 450px;
+}
+
+.wd-font-15 { font-size: 15px }
+.wd-font-13 { font-size: 13px }
+
+.wd-padded-left {
+    padding-left: 16px;
+}
+.wd-padded-right {
+    padding-right: 16px;
+}
+.wd-padding-all {
+    padding: 16px;
+}
+.wd-padding-vertical {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+.wd-float-left {
+    float: left;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-float-done {
+    clear: both;
+}
+
+.wd-margin-left-16 {
+    margin-left: 16px;
+}
+.wd-margin-top-8 {
+    margin-top: 8px;
+}
+.wd-margin-top-16 {
+    margin-top: 16px;
+}
+.wd-margin-bottom-8 {
+    margin-bottom: 8px;
+}
+.wd-margin-right-50 {
+    margin-right: 50px;
+}
+.wd-margin-right-12 {
+    margin-right: 12px;
+}
+.wd-pos-right-12 {
+    float: right;
+}
+
+.wd-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.wd-image-size-100 {
+    width: 100px;
+    height: 100px;
+}
+.wd-highlighted-bottom-border {
+    border-color: rgb(29,161,242);
+    border-bottom-style: solid;
+}
+
+.wd-max-width {
+    max-width: 450px;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+}
