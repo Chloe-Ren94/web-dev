@@ -297,32 +297,75 @@
 @media (min-width: 0px) and
 (max-width: 300px) {
     body {
-        background-color: yellow;
+        background-color: khaki;
+    }
+    p {
+        background-color: indigo;
+        color: peachpuff;
+    }
+    table {
+        background-color: violet;
+    }
+    h2 {
+        background-color: navy;
+        color: lemonchiffon;
+    }
+    h3 {
+        background-color: crimson;
     }
     .media-query {
-        background-color: red;
-        color: white;
+        background-color: navajowhite;
+        color: turquoise;
     }
 }
+
 @media (min-width: 300px) and
 (max-width: 600px) {
     body {
-        background-color: blue;
-        color: white;
+        background-color: mediumspringgreen;
+    }
+    p {
+        background-color: blanchedalmond;
+        color: blueviolet;
+    }
+    table {
+        background-color: olive;
+    }
+    h2 {
+        background-color: aliceblue;
+        color: brown;
+    }
+    h3 {
+        background-color: antiquewhite;
     }
     .media-query {
-         background-color: yellow;
-         color: black;
+        background-color: orangered;
+        color: white;
     }
 }
+
 @media (min-width: 600px) and
 (max-width: 900px) {
     body {
-        background-color: red;
-        color: white;
+        background-color: chartreuse;
+    }
+    p {
+        background-color: dimgray;
+        color: palevioletred;
+    }
+    table {
+        background-color: fuchsia;
+    }
+    h2 {
+        background-color: tomato;
+        color: grey;
+    }
+    h3 {
+        background-color: yellowgreen;
     }
     .media-query {
-        background-color: blue;
-        color: white;
+        background-color: peachpuff;
+        color: darkblue;
     }
 }
+
