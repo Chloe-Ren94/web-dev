@@ -1,0 +1,120 @@
+.fa-stack {
+    font-size: 0.5em;
+}
+
+.btn-primary.override-btn-1 {
+    min-width: 100%;
+    border-radius: 20px;
+}
+.btn-primary.override-btn-2 {
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    color: black;
+    border: none;
+}
+
+.form-control.override-input {
+    border: none;
+    box-shadow: none;
+    webkit-box-shadow: none;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.search-border {
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+    background-color: rgb(30, 30, 30);
+}
+
+.img-size-1 {
+    width: 100%;
+}
+.img-size-2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.img-size-3 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.fg-color-gray {
+    color: rgb(110, 118, 125);
+}
+.fg-color-white {
+    color: white;
+}
+
+.font-bold {
+    font-weight: bold
+}
+
+.caption {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.zindex-front {
+    z-index: 10;
+}
+
+.bg-color {
+    background-color: black;
+}
+
+.list-group-item.override-color-1 {
+    background-color: black;
+    color: lightgray;
+    border: none;
+}
+.list-group-item.override-color-2 {
+    background-color: rgb(30, 30, 30);
+    color: lightgray;
+    border: none;
+}
+.list-group-item.override-top-border {
+    border-radius: 20px 20px 0px 0px;
+}
+.list-group-item.override-bottom-border {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.list-group-item.active.override-color {
+    background-color: black;
+    color: lightgray;
+    font-weight: bold;
+    border: none;
+}
+
+.nav-tabs.override-border {
+    border: none;
+}
+.nav-link.override-color {
+    color: rgb(110, 118, 125);
+}
+.nav-link.active.override-color {
+    background-color: black;
+    color: lightgray;
+    border-color: rgb(29, 161, 242);
+    border-width: 0px 0px 3px 0px;
+    font-weight: bold;
+}
+
+.list-group-item.override-color {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+}
+
+.left-right-border {
+    border-width: 0px 2px 0px 2px;
+    border-style: solid;
+}
+.top-bottom-border {
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+}

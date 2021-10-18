@@ -1,0 +1,39 @@
+.fa-stack {
+    font-size: 0.5em;
+}
+
+.wd-img-size-1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.wd-img-size-2 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-font-bold {
+    font-weight: bold
+}
+.wd-fg-color-gray {
+    color: gray
+}
+.wd-bg-color-white {
+    background-color: white;
+}
+
+.wd-search-border {
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.wd-caption {
+    font-size: 50px;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+
+.wd-zindex-front {
+    z-index: 10;
+}

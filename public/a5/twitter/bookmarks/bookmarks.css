@@ -1,0 +1,92 @@
+.wd-bg-color-black { background-color: black; }
+
+.wd-fg-color-white { color: white; }
+.wd-fg-color-lightgray { color: lightgray; }
+.wd-fg-color-red { color: red; }
+
+.wd-border {
+    border-color:  rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+}
+.wd-border-round-bottom {
+    border-color:  rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-font-13 { font-size: 13px }
+.wd-font-15 { font-size: 15px }
+.wd-font-20 { font-size: 20px }
+
+.wd-padded-left-16 {
+    padding-left: 16px;
+}
+.wd-padded-right-16 {
+    padding-right: 16px;
+}
+.wd-padded-top-12 {
+    padding-top: 12px;
+}
+.wd-padded-bottom-12 {
+    padding-bottom: 12px;
+}
+.wd-padded-all-12 {
+    padding: 12px;
+}
+
+.wd-margin-left-12 {
+    margin-left: 12px;
+}
+.wd-margin-left-16 {
+    margin-left: 16px;
+}
+.wd-margin-right-16 {
+    margin-right: 16px;
+}
+.wd-margin-top-12 {
+    margin-top: 12px;
+}
+.wd-margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+.wd-float-left {
+    float: left;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-float-done {
+    clear: both;
+}
+
+.wd-circular-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+.wd-bookmark-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    vertical-align: bottom;
+}
+
+.wd-max-width-506 {
+    max-width: 506px;
+}
+.wd-max-width-480 {
+    max-width: 480px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+.wd-grid-col-fourth-page {
+    width: 25%;
+    float: left;
+}
