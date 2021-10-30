@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
+import PostItem from "./components/a6/Build/PostList/PostItem";
+import PostList from "./components/a6/Build/PostList";
+import HomeScreen from "./components/a6/Build/HomeScreen/HomeScreen";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

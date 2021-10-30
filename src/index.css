@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fa-stack {
+  font-size: 0.5em;
+}
+.wd-font-bold {
+  font-weight: bold
+}
+.wd-fg-color-gray {
+  color: gray
+}
+.wd-rounded-border {
+  border-radius: 20px;
+  overflow: auto;
+}
+.wd-avatar-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.wd-post-img {
+  width: 100%;
+  height: 264px;
+}
+.wd-summary-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
