@@ -5,7 +5,7 @@ import './ExploreScreen.css';
 const ExploreComponent = () => {
     return(
         <>
-            <div className="row pe-xxl-0">
+            <div className="row pe-4 pe-sm-3 pe-md-2 pe-lg-2 pe-xl-2 pe-xxl-0">
                 <div className="col-11">
                     <div className="input-group wd-search-border wd-bg-color-white">
                         <i className="fas fa-search align-self-center ps-3"></i>
