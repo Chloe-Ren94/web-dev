@@ -1,5 +1,5 @@
 [
-    { "icon": "fab fa-twitter", "text": "", "link": "/a6"},
+    { "icon": "fab fa-twitter", "text": "", "link": "/a6/practice"},
     { "icon": "fas fa-home", "text": "Home", "link": "/a6/twitter/home"},
     { "icon": "fas fa-hashtag", "text": "Explore", "link": "/a6/twitter/explore"},
     { "icon": "fas fa-bell", "text": "Notifications", "link": "#"},
