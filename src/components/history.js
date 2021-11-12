@@ -30,6 +30,12 @@ const History = () => {
                 <li><a href="/a5/twitter/ExploreScreen/explore.html">A5 Practice ExploreScreen</a></li>
                 <li><a href="/a5/twitter/HomeScreen/home.html">A5 Challenge HomeScreen</a></li>
             </ul>
+            <h3>Assignment 6</h3>
+            <ul>
+                <li><a href="/a6/practice">React Practice</a></li>
+                <li><a href="/a6/twitter/explore">A6 Practice ExploreScreen</a></li>
+                <li><a href="/a6/twitter/home">A6 Challenge HomeScreen</a></li>
+            </ul>
         </div>
     )
 }

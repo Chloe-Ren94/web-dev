@@ -1,0 +1,12 @@
+.wd-search-border {
+    border-radius: 20px;
+    overflow: auto;
+}
+.wd-bg-color-white {
+    background-color: white;
+}
+.wd-caption {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
