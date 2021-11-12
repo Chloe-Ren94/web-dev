@@ -1,3 +1,6 @@
+import {Link} from "react-router-dom";
+import React from "react";
+
 const History = () => {
     return (
         <div>
@@ -32,9 +35,15 @@ const History = () => {
             </ul>
             <h3>Assignment 6</h3>
             <ul>
-                <li><a href="/a6/practice">React Practice</a></li>
-                <li><a href="/a6/twitter/explore">A6 Practice ExploreScreen</a></li>
-                <li><a href="/a6/twitter/home">A6 Challenge HomeScreen</a></li>
+                <li>
+                    <Link to="/a6/practice">React Practice</Link>
+                </li>
+                <li>
+                    <Link to="/a6/twitter/explore">A6 Practice ExploreScreen</Link>
+                </li>
+                <li>
+                    <Link to="/a6/twitter/home">A6 Challenge HomeScreen</Link>
+                </li>
             </ul>
         </div>
     )

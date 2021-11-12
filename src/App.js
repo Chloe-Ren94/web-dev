@@ -21,7 +21,7 @@ function App() {
                 <Route path={["/", "/a7", "/a7/hello"]} exact={true}>
                     <HelloWorld7/>
                 </Route>
-                <Route path={["/a7", "/a7/practice"]} exact={true}>
+                <Route path="/a7/practice" exact={true}>
                     <A7/>
                     <Practice7/>
                 </Route>
