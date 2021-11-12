@@ -6,5 +6,5 @@
     { "icon": "fas fa-envelope", "text": "Messages", "link": "#"},
     { "icon": "fas fa-bookmark", "text": "Bookmarks", "link": "../bookmarks/bookmarks.html"},
     { "icon": "fas fa-list", "text": "Lists", "link": "#"},
-    { "icon": "fas fa-user", "text": "Profile", "link": "/a7/twitter/profile "}
+    { "icon": "fas fa-user", "text": "Profile", "link": "/a7/twitter/profile"}
 ]
