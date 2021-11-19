@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import PostItem from "./PostItem";
 import {useDispatch, useSelector} from "react-redux";
-import {fetchAllTweets} from "../../../../services/twitterService";
+import {fetchAllTweets} from "../services/twitterService";
 
 const selectAllTweets = (state) => state.tweets;
 const PostList = () => {

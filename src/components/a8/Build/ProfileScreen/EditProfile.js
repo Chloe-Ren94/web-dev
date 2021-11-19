@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {updateProfile} from "../../../../services/profileService";
+import {updateProfile} from "../services/profileService";
 
 const EditProfile = () => {
     const dispatch = useDispatch();

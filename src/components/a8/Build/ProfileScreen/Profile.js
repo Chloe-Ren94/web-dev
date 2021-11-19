@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {fetchProfile} from "../../../../services/profileService";
+import {fetchProfile} from "../services/profileService";
 
 const Profile = () => {
     const profile = useSelector(state => state.profile);

@@ -1,6 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {deleteTweet, likeTweet} from "../../../../services/twitterService";
+import {deleteTweet, likeTweet} from "../services/twitterService";
 
 const PostItem = (
     {
