@@ -1,8 +1,6 @@
-const tweets = (state = [], action) => {
+import posts from './data/posts.json';
+const tweets = (state = posts, action) => {
     switch (action.type) {
-        case 'fetch-all-tweets':
-            return(action.tweets)
-            break;
         case 'like-tweet':
             return (
                 state.map(tweet => {
@@ -26,9 +24,24 @@ const tweets = (state = [], action) => {
             )
             break;
         case 'create-tweet':
+            const tweet = {
+                _id: (new Date()).getTime() + '',
+                "topic": "Web Development",
+                "userName": "ReactJS",
+                "verified": false,
+                "handle": "ReactJS",
+                "time": "2h",
+                ...action.tweet,
+                "avatarIcon": "/images/react-blue.png",
+                "logo-image": "/images/react-blue.png",
+                "reply": 123,
+                "retweet": 234,
+                "like": 345,
+                "liked": false
+            };
             return (
                 [
-                    action.tweet,
+                    tweet,
                     ...state,
                 ]
             );

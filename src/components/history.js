@@ -33,6 +33,8 @@ const History = () => {
                 <li><a href="/a5/twitter/ExploreScreen/explore.html">A5 Practice ExploreScreen</a></li>
                 <li><a href="/a5/twitter/HomeScreen/home.html">A5 Challenge HomeScreen</a></li>
             </ul>
+
+            <h2>React.js Assignments</h2>
             <h3>Assignment 6</h3>
             <ul>
                 <li>
@@ -43,6 +45,21 @@ const History = () => {
                 </li>
                 <li>
                     <Link to="/a6/twitter/home">A6 Challenge HomeScreen</Link>
+                </li>
+            </ul>
+            <h3>Assignment 7</h3>
+            <ul>
+                <li>
+                    <Link to="/a7/practice">Redux Practice</Link>
+                </li>
+                <li>
+                    <Link to="/a7/twitter/explore">A7 ExploreScreen</Link>
+                </li>
+                <li>
+                    <Link to="/a7/twitter/home">A7 HomeScreen</Link>
+                </li>
+                <li>
+                    <Link to="/a7/twitter/profile">A7 Challenge ProfileScreen</Link>
                 </li>
             </ul>
         </div>
