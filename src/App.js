@@ -7,24 +7,34 @@ import './vendors/fontawesome/css/all.min.css';
 import HelloWorld6 from "./components/a6/HelloWorld";
 import HelloWorld7 from "./components/a7/HelloWorld";
 import HelloWorld8 from "./components/a8/HelloWorld";
+import HelloWorld9 from "./components/a9/HelloWorld";
 import Practice6 from "./components/a6/Practice";
 import Practice7 from "./components/a7/Practice";
 import Practice8 from "./components/a8/Practice";
+import Practice9 from "./components/a9/Practice";
 import HomeScreen from "./components/a6/Build/HomeScreen/HomeScreen";
 import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
 import Build7 from "./components/a7/Build";
 import Build8 from "./components/a8/Build";
-import A8 from "./components/a8";
+import Build9 from "./components/a9/Build";
 
 function App() {
     return (
         <BrowserRouter>
             <div className="container">
-                <Route path={["/", "/a8", "/a8/hello"]} exact={true}>
+                <Route path={["/", "/a9", "/a9/hello"]} exact={true}>
+                    <HelloWorld9/>
+                </Route>
+                <Route path="/a9/practice" exact={true}>
+                    <Practice9/>
+                </Route>
+                <Route path="/a9/twitter">
+                    <Build9/>
+                </Route>
+                <Route path={["/a8", "/a8/hello"]} exact={true}>
                     <HelloWorld8/>
                 </Route>
                 <Route path="/a8/practice" exact={true}>
-                    <A8/>
                     <Practice8/>
                 </Route>
                 <Route path="/a8/twitter">

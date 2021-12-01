@@ -62,6 +62,21 @@ const History = () => {
                     <Link to="/a7/twitter/profile">A7 Challenge ProfileScreen</Link>
                 </li>
             </ul>
+            <h3>Assignment 8</h3>
+            <ul>
+                <li>
+                    <Link to="/a8/practice">Node Practice</Link>
+                </li>
+                <li>
+                    <Link to="/a8/twitter/explore">A8 ExploreScreen</Link>
+                </li>
+                <li>
+                    <Link to="/a8/twitter/home">A8 HomeScreen</Link>
+                </li>
+                <li>
+                    <Link to="/a8/twitter/profile">A8 Challenge ProfileScreen</Link>
+                </li>
+            </ul>
         </div>
     )
 }
